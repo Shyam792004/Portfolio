@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* src/index.css */
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --link-color: #6b21a8;
+  --card-bg: #f4f4f4;
+}
+
+.dark {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --link-color: #c084fc;
+  --card-bg: #1e1e1e;
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+  background-color: var(--card-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: var(--text-color);
+}

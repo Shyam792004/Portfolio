@@ -1,0 +1,112 @@
+/* ========== Light Theme ========== */
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  z-index: 50;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #7c3aed; /* purple */
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #7c3aed;
+}
+
+.theme-toggle {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ========== Dark Theme ========== */
+body.dark-theme {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-theme .navbar {
+  background-color: #1a1a1a;
+  border-color: #333;
+}
+
+body.dark-theme .navbar-brand {
+  color: #c084fc;
+}
+
+body.dark-theme .nav-links a {
+  color: #e0e0e0;
+}
+
+body.dark-theme .nav-links a:hover {
+  color: #d8b4fe;
+}
+
+body.dark-theme .theme-toggle {
+  border-color: #555;
+  color: #f0f0f0;
+}
+
+/* Apply text color globally to all sections */
+.dark-theme section,
+.dark-theme .section,
+.dark-theme .content,
+.dark-theme .text,
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme p,
+.dark-theme a,
+.dark-theme span,
+.dark-theme li,
+.dark-theme label,
+.dark-theme input,
+.dark-theme button {
+  color: #e0e0e0 !important;
+}
+
+/* Optional: Lighten buttons/links in dark mode */
+.dark-theme button,
+.dark-theme .btn {
+  background-color: #292929;
+  border: 1px solid #444;
+  color: #e0e0e0;
+}
+
+.dark-theme a.btn,
+.dark-theme .btn-link {
+  color: #e0e0e0;
+  border-color: #555;
+}
