@@ -29,22 +29,22 @@ const Certificates = () => {
     {
       name: 'Codolio',
       desc: 'Complete coding profile and achievements',
-      link: '#',
+      link: 'https://codolio.com/profile/shyamsundhar79',
     },
     {
       name: 'HackerRank',
       desc: 'Programming challenges and certifications',
-      link: '#',
+      link: 'http://hackerrank.com/profile/shyammakesh79',
     },
     {
       name: 'LeetCode',
       desc: 'Algorithm and data structure practice',
-      link: '#',
+      link: 'https://leetcode.com/u/shyam79/',
     },
     {
       name: 'GeeksforGeeks',
       desc: 'Coding practice and problem solving',
-      link: '#',
+      link: 'https://www.geeksforgeeks.org/user/shyammakje7/',
     },
   ];
 
@@ -109,9 +109,9 @@ const Certificates = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
         {[
           { label: 'Certificates', value: '8+' },
-          { label: 'Platforms', value: '4' },
-          { label: 'Domains', value: 'Multiple' },
-          { label: 'Learning', value: 'Ongoing' },
+          { label: 'Platforms', value: '4+' },
+          { label: 'Projects', value: '6+' },
+          { label: 'Problems', value: '400+' },
         ].map((item, idx) => (
           <div
             key={idx}

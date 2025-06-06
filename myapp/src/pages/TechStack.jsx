@@ -4,15 +4,20 @@ const TechStack = () => (
     <h2 className="text-3xl font-bold text-purple-600 mb-4">Tech Stack</h2>
     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
       {[
-        'React.js',
-        'Spring Boot',
-        'Node.js',
-        'MySQL',
-        'MongoDB',
-        'Java',
-        'HTML',
+        'Html',
         'CSS',
-        'Tailwind',
+        'JavaScript',
+        'Bootstrap',
+        'TailwindCSS',
+        'React.js',
+        'MySQL',
+        'Spring Boot',
+        'Java',
+        'Java OOPS',
+        'DSA',
+        'Github',
+        
+
       ].map((tech) => (
         <div
           key={tech}

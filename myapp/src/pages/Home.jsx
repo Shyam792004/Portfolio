@@ -1,5 +1,5 @@
 // src/pages/Home.jsx
-import { FaLinkedin, FaRegEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaRegEnvelope,FaGithub,FaCode,FaDownload } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import developer_male from "../assets/developer_male.jpg";
 import "../App.css";
@@ -30,31 +30,39 @@ const Home = () => {
         {/* Social Icons */}
         <div className="flex gap-4 mt-4">
           <a
-            href="https://leetcode.com"
+            href="https://github.com/shyam792004"
             target="_blank"
             rel="noreferrer"
             className="text-yellow-500 hover:scale-110 transition"
           >
-            <SiLeetcode className="text-2xl" />
+            <FaGithub className="text-2xl" /> 
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/shyamsundhar07/"
             target="_blank"
             rel="noreferrer"
             className="text-blue-600 hover:scale-110 transition"
           >
             <FaLinkedin className="text-2xl" />
           </a>
+          <a
+            href="https://codolio.com/profile/shyamsundhar79"
+            target="_blank"
+            rel="noreferrer"
+            className="text-purple-600 hover:scale-110 transition"
+          >
+            <FaCode className="text-2xl" />
+          </a>
         </div>
 
         {/* Buttons */}
         <div className="flex flex-wrap gap-4 mt-6">
           <a
-            href="/Shyam_CV.pdf"
-            download
+            href="/ShyamSundharS_CV.pdf"
+            // download
             className="bg-purple-600 text-white px-6 py-2 rounded shadow hover:bg-purple-700 transition"
           >
-            ⬇️ Download CV
+             Download CV
           </a>
           <a
             href="#contact"
