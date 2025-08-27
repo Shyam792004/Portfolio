@@ -16,6 +16,10 @@ const TechStack = () => (
         'Java OOPS',
         'DSA',
         'Github',
+        'VSCode',
+        'IntelliJ',
+        'C',
+        'C++',
         
 
       ].map((tech) => (

@@ -8,20 +8,27 @@ const Certificates = () => {
       title: 'NPTEL Courses',
       courses: ['Programming in Java', 'Introduction to Operating Systems', 'Blockchain and Its Applications'],
     },
-    {
-      title: 'Cisco Networking Academy',
-      courses: ['Networking Basics'],
-    },
-    {
-      title: 'Coursera',
-      courses: ['How Computers Work', 'Digital Marketing'],
-    },
+    
     {
       title: 'iamneo.ai',
       courses: [
         'REST Application Development Using Spring Boot and JPA',
         'Testing Methodology (Basics)',
       ],
+    },
+    {
+      title: 'Coursera',
+      courses: ['How Computers Work', 'Digital Marketing'],
+    },
+    {
+      title: 'Udemy',
+      courses: [
+        'C Programming for College Students',
+      ],
+    },
+    {
+      title: 'Cisco Networking Academy',
+      courses: ['Networking Basics'],
     },
   ];
 
